@@ -1,0 +1,67 @@
+{
+    "url": "https://petstore.swagger.io/v2",
+    "pet_details": {
+        "id": 12345,
+        "category": {
+            "id": 0,
+            "name": "Dog"
+        },
+        "name": "Maximus",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    "updated_pet_details": {
+        "id": 12345,
+        "category": {
+            "id": 0,
+            "name": "Spartan"
+        },
+        "name": "Spartacus",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    "find_by_status": "available",
+    "update_data": "name=mixy&status=sold",
+    "order": {
+        "id": 1,
+        "petId": 12345,
+        "quantity": 1,
+        "shipDate": "2024-07-22T19:35:34.825034",
+        "status": "placed",
+        "complete": true
+    },
+    "status_list": [
+        "sold",
+        "pending",
+        "available"
+    ],
+    "users_list": [
+        {
+            "id": 123456789,
+            "username": "AliEisami",
+            "firstName": "Ali",
+            "lastName": "Eisami",
+            "email": "alieisami@gmail.com",
+            "password": "1234567",
+            "phone": "0548347600",
+            "userStatus": 0
+        }
+    ],
+    "file_path": "C:\\Users\\aliei\\Desktop\\5TECH\\AutomationFinalProjectPart2\\FinalProjectPart2\\config.json"
+}
