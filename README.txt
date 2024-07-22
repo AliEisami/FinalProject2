@@ -4,22 +4,20 @@ This repository contains a suite of automated tests for the API endpoints relate
 
 ## Table of Contents
 
-- [API Test Suite](#api-test-suite)
-  - [Table of Contents](#table-of-contents)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Test Structure](#test-structure)
-    - [TestAPIPet](#testapipet)
-    - [TestAPIStore](#testapistore)
-    - [TestAPIUser](#testapiuser)
-  - [Contributing](#contributing)
-  - [License](#license)
+- [API Test Suite]
+  - [Table of Contents]
+  - [Installation]
+  - [Usage]
+  - [Test Structure]
+    - [TestAPIPet]
+    - [TestAPIStore]
+    - [TestAPIUser]
+  - [Contributing]
 
 ## Installation
 
     1. Clone the repository:
-       git clone <repository-url>
-       cd <repository-directory>
+       git clone https://github.com/AliEisami/Final_Project.git
 
     2. Set up a virtual environment and install dependencies:
         python -m venv venv
