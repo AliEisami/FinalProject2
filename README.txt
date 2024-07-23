@@ -15,14 +15,8 @@ This repository contains a suite of automated tests for the API endpoints relate
   - [Contributing]
 
 ## Installation
-
     1. Clone the repository:
        git clone https://github.com/AliEisami/Final_Project.git
-
-    2. Set up a virtual environment and install dependencies:
-        python -m venv venv
-        source venv/bin/activate
-        pip install -r requirements.txt
 
 
 Usage
