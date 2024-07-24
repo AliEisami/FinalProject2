@@ -9,7 +9,6 @@ class APIPet:
         self.endpoint = "pet"
         self._request = request
         self._config = ConfigProvider.load_from_file()
-        self._table = "pets"
         self._database = SQLSetup(self._config['database'])
         self._database.create_connection()
         self._database.create_table(self._config['pet_table'])
