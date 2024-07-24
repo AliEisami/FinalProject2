@@ -47,6 +47,8 @@ class APIWrapper:
         Returns:
             Response: The response from the PUT request.
         """
+        requests.put(url, headers=headers, json=body)
+
         return requests.put(url, headers=headers, json=body)
 
     @staticmethod

@@ -63,5 +63,9 @@
             "userStatus": 0
         }
     ],
-    "file_path": "C:\\Users\\aliei\\Desktop\\5TECH\\AutomationFinalProjectPart2\\FinalProjectPart2\\config.json"
+    "file_path" : "C:\\Users\\aliei\\Desktop\\5TECH\\AutomationFinalProjectPart2\\FinalProjectPart2\\config.json",
+    "database" : "pet_store.db",
+    "pet_table" : "CREATE TABLE IF NOT EXISTS pets (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, category_id INTEGER, status TEXT)",
+    "order_table" : "CREATE TABLE IF NOT EXISTS orders (id INTEGER PRIMARY KEY, pet_id INTEGER FOREIGN KEY, quantity INTEGER, ship_date TEXT, status TEXT, complete TEXT)",
+    "user_table" : "CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, username TEXT, first_name TEXT, last_name Text, email Text, password Text, phone INTEGER, status TEXT)"
 }
